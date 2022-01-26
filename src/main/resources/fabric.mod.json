@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "huajimur",
   "version": "${version}",
-  "name": "",
+  "name": "Huaji_MUR233's Carpet addition",
   "description": "",
   "authors": [
     "Huaji_MUR233"
@@ -13,16 +13,16 @@
   },
 
   "license": "WTFPL-3.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/huajimur/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.jvav."
+      "me.jvav.carpet.CarpetHuajiMURAddition"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "huajimur.mixins.json"
   ],
 
   "depends": {
