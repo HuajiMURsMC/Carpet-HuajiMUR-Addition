@@ -4,13 +4,12 @@
   "package": "me.jvav.carpet.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "CommandsMixin"
   ],
   "client": [
   ],
   "server": [
-    "server.ServerLevelMixin",
-    "server.ServerGamePacketListenerImplMixin",
-    "server.DedicatedServerMixin"
+    "server.ServerLevelMixin"
   ],
   "injectors": {
     "defaultRequire": 1
