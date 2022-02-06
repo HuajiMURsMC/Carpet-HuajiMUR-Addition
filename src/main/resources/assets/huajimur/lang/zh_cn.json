@@ -2,5 +2,7 @@
   "rule.disableParticlesPackets.name": "禁止发送粒子",
   "rule.disableParticlesPackets.desc": "禁止发送粒子的数据包到客户端",
   "rule.logCommands.name": "控制台输出指令",
-  "rule.logCommands.desc": "将指令输出至日志与OP"
+  "rule.logCommands.desc": "将指令输出至日志与OP",
+  "rule.antiNoCom.name": "\"NoCom\"修复",
+  "rule.antiNoCom.desc": "干掉 \"NoCom\""
 }
