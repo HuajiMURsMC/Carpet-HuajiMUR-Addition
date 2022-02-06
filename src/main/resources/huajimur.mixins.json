@@ -4,7 +4,8 @@
   "package": "me.jvav.carpet.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "CommandsMixin"
+    "CommandsMixin",
+    "LevelMixin"
   ],
   "client": [
   ],

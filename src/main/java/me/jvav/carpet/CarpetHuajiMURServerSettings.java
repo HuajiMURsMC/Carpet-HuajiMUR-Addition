@@ -17,4 +17,10 @@ public class CarpetHuajiMURServerSettings {
             category = {RuleCategory.COMMAND}
     )
     public static boolean logCommands = false;
+
+    @Rule(
+            desc = "Fix NoCom.",
+            category = {RuleCategory.BUGFIX}
+    )
+    public static boolean antiNoCom = false;
 }
