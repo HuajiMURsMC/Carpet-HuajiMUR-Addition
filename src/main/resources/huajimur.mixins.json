@@ -5,12 +5,12 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "CommandsMixin",
-    "LevelMixin"
+    "LevelMixin",
+    "ServerLevelMixin"
   ],
   "client": [
   ],
   "server": [
-    "server.ServerLevelMixin"
   ],
   "injectors": {
     "defaultRequire": 1

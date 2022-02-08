@@ -1,4 +1,4 @@
-package me.jvav.carpet.mixins.server;
+package me.jvav.carpet.mixins;
 
 import me.jvav.carpet.CarpetHuajiMURServerSettings;
 import net.minecraft.network.protocol.Packet;
