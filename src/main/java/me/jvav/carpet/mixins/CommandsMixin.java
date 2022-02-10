@@ -30,7 +30,11 @@ public class CommandsMixin {
             name = "Console";
         }
         Component component = new TranslatableComponent("chat.type.text", name, string);
-        CarpetHuajiMURAddition.LOGGER.info(component.getString());
-        CarpetHuajiMURAddition.INSTANCE.broadcastToOps(component, ChatType.CHAT);
+        if (CarpetHuajiMURServerSettings.logCommands) {
+            CarpetHuajiMURAddition.LOGGER.info(component.getString());
+        }
+        if (CarpetHuajiMURServerSettings.logCommandsToOps) {
+            CarpetHuajiMURAddition.INSTANCE.broadcastToOps(component, ChatType.CHAT);
+        }
     }
 }

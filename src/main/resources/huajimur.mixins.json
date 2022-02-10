@@ -6,7 +6,8 @@
   "mixins": [
     "CommandsMixin",
     "LevelMixin",
-    "ServerLevelMixin"
+    "ServerLevelMixin",
+    "ServerGamePacketListenerImplMixin"
   ],
   "client": [
   ],
