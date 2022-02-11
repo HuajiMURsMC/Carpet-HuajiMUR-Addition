@@ -35,4 +35,16 @@ public class CarpetHuajiMURServerSettings {
             category = {RuleCategory.FEATURE}
     )
     public static boolean logChatWithoutPrefix = false;
+
+    @Rule(
+            desc = "活塞（头）区块加载器",
+            category = {RuleCategory.SURVIVAL, RuleCategory.FEATURE}
+    )
+    public static boolean pistonBlockChunkLoader = false;
+
+    @Rule(
+            desc = "音符盒区块加载器",
+            category = {RuleCategory.SURVIVAL, RuleCategory.FEATURE}
+    )
+    public static boolean noteBlockChunkLoader = false;
 }
