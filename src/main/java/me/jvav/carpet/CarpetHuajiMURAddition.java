@@ -2,7 +2,6 @@ package me.jvav.carpet;
 
 import carpet.CarpetServer;
 import carpet.CarpetExtension;
-import carpet.utils.Translations;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.ChatType;
 import net.minecraft.server.players.PlayerList;
